@@ -1,0 +1,7 @@
+Password validation is controlled by the AUTH_PASSWORD_VALIDATORS setting.
+
+If we want to remove default models like Groups from admin, we can use unregister method.
+
+We can change the header of the Admin page - admin.site.site_header = <Name we want to give>
+
+For advanced model configuration we must use ModelAdmin Class. The ModelAdmin class is a representation of user-defined models in the admin panel. It can be used to override various actions. First we need to create and register ModelAdmin Class. We can use @admin.register decorator or admin.site.register() method for registiration.
